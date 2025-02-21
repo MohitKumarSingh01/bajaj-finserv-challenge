@@ -17,7 +17,7 @@ function App() {
       }
 
       // Call the backend API
-      const res = await axios.post("https://your-backend-url.herokuapp.com/bfhl", parsedInput);
+      const res = await axios.post("https://bajaj-finserv-challenge-ecru.vercel.app/", parsedInput);
       setResponse(res.data);
       setError("");
     } catch (err) {
